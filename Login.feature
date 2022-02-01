@@ -4,7 +4,7 @@ Given user on the main page
 And user hovers over the "Giriş Yap" button
 And user clicks on the "Giriş Yap" link  
 
-@regression @smoke
+@regression @smoke @Login
 Scenario: Verification of Login Function  
 Given user on the Login Page
 And user enters the following detail
